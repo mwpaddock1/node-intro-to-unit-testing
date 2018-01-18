@@ -31,7 +31,7 @@ describe('adder', function() {
       ['1', 2],
       [2, false]
     ];
-    // prove that an error is raised for bad inputs
+    // prove that an error is raised for badhai' inputs
     badInputs.forEach(function(input) {
       expect(function() {
         adder(input[0], input[1]);
