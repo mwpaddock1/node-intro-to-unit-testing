@@ -1,6 +1,6 @@
 module.exports = () => {
     return {
-        files: ['fizzbuzzer.js'],
+        files: ['fizzBuzzer.js', 'adder.js'],
         tests: ['test/**/*.js'],
         testFramework: 'mocha',
         env: {type: 'node',
